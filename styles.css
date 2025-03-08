@@ -134,34 +134,46 @@ nav ul li a{
     display: inline-block;
 }
 .services-list div:hover{
-    background: rgb(11, 71, 109);
+    background: rgb(52, 115, 155);
     transform: translateY(-10px);
     color: aliceblue;
 }
 /*----------portfolio----------*/
 #porfolio{
-    padding: 50px 0;
+    padding: 50px;
 }
 .work-list{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    grid-gap: 40px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
     margin-top: 50px;
 }
 .work{
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 .work img{
-    width: 100%;
+    width: 90%;
+    height: auto;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    margin: 2rem;
 }
 
+.work .layer{
+    margin: 2rem;
+}
 
 /*---------contact--------*/
+.sub-title {
+  font-size: 3rem;  
+}
+.row{
+    margin-left: 2rem;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -203,12 +215,13 @@ form input, form textarea{
     border-radius: 6px;
 }
 form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
+    padding: 14px 30px;
+    font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
     display: inline-block;
     background: lightskyblue;
+    border-radius: 8px;
 }
 .copyright{
     width: 100%;
