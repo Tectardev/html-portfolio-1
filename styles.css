@@ -199,6 +199,7 @@ nav ul li a{
 .social-icons a:hover{
     color: white;
     transform: translateY(-5px);
+    background-color: rgb(69, 133, 173)  ;
 }
 .contact-right form{
     width: 100%;
